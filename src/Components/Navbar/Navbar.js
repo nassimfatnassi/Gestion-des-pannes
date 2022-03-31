@@ -22,12 +22,12 @@ export default function Navbar() {
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./">
+                <a class="nav-link active" aria-current="page" href="/">
                   Acceuil
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">
+                <a class="nav-link active" href="/Sinscrire">
                   S'inscrire
                 </a>
               </li>
@@ -47,7 +47,7 @@ export default function Navbar() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">
+                <a class="nav-link active" href="/Materiaux">
                   Matériaux
                 </a>
               </li>
