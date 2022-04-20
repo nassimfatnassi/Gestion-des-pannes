@@ -4,8 +4,10 @@ export default function Acceuil() {
   return (
     <div>
       <div className="header mt-5">
-        <p className="h2 fw-bold fst-italic">About us</p>
-        <img src="map.png" />
+         <p className="h2 fw-bold fst-italic">About us</p>
+         <a class="navbar-brand" href="#">
+            <img src="map.png" width="30%" />
+          </a>
       </div>
       <div className="container">
         <div className="row">

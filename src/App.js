@@ -5,24 +5,29 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Navbar from './Components/Navbar/Navbar';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
+import Navbar from './Components/Sidebar/Navbar';
 import Acceuil from './Components/Acceuil/Acceuil';
 import Sinscrire from './Components/Sinscrire/Sinscrire';
 import Materiaux from './Components/Materiaux/Materiaux';
 import Panne from './Components/Panne/Panne';
+import Profil from './Components/Profil/Profil';
 
 function App() {
   return (
     <div className="App">
-     <Router>
-       <Navbar />
-       <Routes>
-         <Route exact path="/" element={<Acceuil  />} />
+      <Router>
+        <Navbar />
+        <Routes>
+        <Route exact path="/" element={<Acceuil  />} />
          <Route exact path="/Sinscrire" element={<Sinscrire  />} />
          <Route exact path="/Materiaux" element={<Materiaux  />} />
          <Route exact path="/Panne" element={<Panne  />} />
-       </Routes>
-     </Router>
+         <Route exact path="/Profil" element={<Profil  />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

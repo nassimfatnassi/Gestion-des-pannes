@@ -1,0 +1,7 @@
+.d_flex{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.img{ margin-left: 25%;}

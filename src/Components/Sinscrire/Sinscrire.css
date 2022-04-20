@@ -3,10 +3,10 @@
     font-weight: bold;
     opacity: 1;
     color: black;
-    font-size: 18px;
+    font-size: 30x;
 }
 .sinscrire{
-    background-color: rgb(209, 100, 209);
+    background-color: rgb(168, 119, 168);
     opacity: 0.8;
     width: 40%;
     border-radius: 20px;
@@ -16,8 +16,8 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
-p{
-    color: black;
+h1{
+    color: rgb(11, 11, 11);
     
 }
 .titre{
